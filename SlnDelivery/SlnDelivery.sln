@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PryDelivery", "PryDelivery\PryDelivery.csproj", "{8D0E8071-58B1-4DFE-8830-3163A07C1EB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BEUDelivery", "BEUDelivery\BEUDelivery.csproj", "{6B020D9E-D258-4185-A39B-DD73C19459D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D0E8071-58B1-4DFE-8830-3163A07C1EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0E8071-58B1-4DFE-8830-3163A07C1EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0E8071-58B1-4DFE-8830-3163A07C1EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0E8071-58B1-4DFE-8830-3163A07C1EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B020D9E-D258-4185-A39B-DD73C19459D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B020D9E-D258-4185-A39B-DD73C19459D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B020D9E-D258-4185-A39B-DD73C19459D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B020D9E-D258-4185-A39B-DD73C19459D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73F76794-DDB9-4F25-B009-C3946C0C7855}
+	EndGlobalSection
+EndGlobal

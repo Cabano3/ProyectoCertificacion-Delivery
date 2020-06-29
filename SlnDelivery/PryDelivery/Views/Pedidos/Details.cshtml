@@ -1,0 +1,42 @@
+﻿@model BEUDelivery.Pedido
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Pedido</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.fechapedido)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechapedido)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.estadopedido)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estadopedido)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Usuario.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Usuario.nombre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idPedido }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
