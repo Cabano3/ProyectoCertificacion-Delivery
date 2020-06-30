@@ -25,10 +25,13 @@
 
         <div class="form-group">
             @Html.LabelFor(model => model.estadopedido, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.estadopedido, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.estadopedido, "", new { @class = "text-danger" })
-            </div>
+			<div class="col-md-10">
+				&nbsp;<label class="h5">Pagado</label>
+				@Html.RadioButtonFor(model => model.estadopedido, "PG", htmlAttributes: new { @checked = "checked" })
+				&nbsp;<label class="h5">Pendiente</label>
+				@Html.RadioButtonFor(model => model.estadopedido, "PD")
+				@Html.ValidationMessageFor(model => model.estadopedido, "", new { @class = "text-danger" })
+			</div>
         </div>
 
         <div class="form-group">

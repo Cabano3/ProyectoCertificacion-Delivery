@@ -73,10 +73,13 @@
 
         <div class="form-group">
             @Html.LabelFor(model => model.rol, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.rol, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.rol, "", new { @class = "text-danger" })
-            </div>
+			<div class="col-md-10">
+				&nbsp;<label class="h5">Cliente</label>
+				@Html.RadioButtonFor(model => model.rol, "C", htmlAttributes: new { @checked = "checked" })
+				&nbsp;<label class="h5">Administrador</label>
+				@Html.RadioButtonFor(model => model.rol, "A")
+				@Html.ValidationMessageFor(model => model.rol, "", new { @class = "text-danger" })
+			</div>
         </div>
 
         <div class="form-group">
