@@ -30,8 +30,10 @@ namespace BEUDelivery
         [Required(ErrorMessage = "El nombre es requerido"), MaxLength(50)]
         [Display(Name = "Nombre")]
         public string nombre { get; set; }
- 
-        [Display(Name ="Precio")]
+
+        /*[Required(ErrorMessage = "The Salary is required.")]
+        [Range(0.00, 100.00)]*/
+        [DisplayFormat(DataFormatString = "{0:C}")]
         public Nullable<decimal> precio { get; set; }
 
         [DataType(DataType.Text)]
