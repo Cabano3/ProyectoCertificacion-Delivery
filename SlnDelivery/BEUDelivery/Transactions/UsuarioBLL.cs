@@ -84,5 +84,17 @@ namespace BEUDelivery.Transactions
 			DeliveryEntities db = new DeliveryEntities();
 			return db.Usuario.ToList();
 		}
+
+		public static Usuario GetCliente(string user, string pass)
+		{
+			DeliveryEntities db = new DeliveryEntities();
+			return db.Usuario.FirstOrDefault(x => x.usuario1 == user && x.contrasena == pass && x.rol == "C");
+		}
+		public static Usuario GetAdministrador(string user, string pass)
+		{
+			DeliveryEntities db = new DeliveryEntities();
+			return db.Usuario.FirstOrDefault(x => x.usuario1 == user && x.contrasena == pass && x.rol == "A");
+		}
+
 	}
 }

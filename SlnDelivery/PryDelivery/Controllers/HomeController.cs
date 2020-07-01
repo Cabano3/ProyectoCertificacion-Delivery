@@ -26,5 +26,11 @@ namespace PryDelivery.Controllers
 
 			return View();
 		}
+		public ActionResult Cliente()
+		{
+			
+
+			return View();
+		}
 	}
 }
