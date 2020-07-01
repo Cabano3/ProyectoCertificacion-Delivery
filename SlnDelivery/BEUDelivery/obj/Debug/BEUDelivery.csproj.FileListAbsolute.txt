@@ -21,3 +21,15 @@ C:\Users\crist\OneDrive\Documentos\GitHub\ProyectoCertificacion-Delivery\SlnDeli
 C:\Users\crist\OneDrive\Documentos\GitHub\ProyectoCertificacion-Delivery\SlnDelivery\BEUDelivery\obj\Debug\BEUDelivery.csproj.CopyComplete
 C:\Users\crist\OneDrive\Documentos\GitHub\ProyectoCertificacion-Delivery\SlnDelivery\BEUDelivery\obj\Debug\BEUDelivery.dll
 C:\Users\crist\OneDrive\Documentos\GitHub\ProyectoCertificacion-Delivery\SlnDelivery\BEUDelivery\obj\Debug\BEUDelivery.pdb
+C:\Users\rckik\Documents\GitHub\ProyectoCertificacion-Delivery\SlnDelivery\BEUDelivery\bin\Debug\BEUDelivery.dll.config
+C:\Users\rckik\Documents\GitHub\ProyectoCertificacion-Delivery\SlnDelivery\BEUDelivery\bin\Debug\BEUDelivery.dll
+C:\Users\rckik\Documents\GitHub\ProyectoCertificacion-Delivery\SlnDelivery\BEUDelivery\bin\Debug\BEUDelivery.pdb
+C:\Users\rckik\Documents\GitHub\ProyectoCertificacion-Delivery\SlnDelivery\BEUDelivery\bin\Debug\EntityFramework.dll
+C:\Users\rckik\Documents\GitHub\ProyectoCertificacion-Delivery\SlnDelivery\BEUDelivery\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rckik\Documents\GitHub\ProyectoCertificacion-Delivery\SlnDelivery\BEUDelivery\bin\Debug\EntityFramework.xml
+C:\Users\rckik\Documents\GitHub\ProyectoCertificacion-Delivery\SlnDelivery\BEUDelivery\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rckik\Documents\GitHub\ProyectoCertificacion-Delivery\SlnDelivery\BEUDelivery\obj\Debug\BEUDelivery.csprojAssemblyReference.cache
+C:\Users\rckik\Documents\GitHub\ProyectoCertificacion-Delivery\SlnDelivery\BEUDelivery\obj\Debug\BEUDelivery.csproj.CoreCompileInputs.cache
+C:\Users\rckik\Documents\GitHub\ProyectoCertificacion-Delivery\SlnDelivery\BEUDelivery\obj\Debug\BEUDelivery.csproj.CopyComplete
+C:\Users\rckik\Documents\GitHub\ProyectoCertificacion-Delivery\SlnDelivery\BEUDelivery\obj\Debug\BEUDelivery.dll
+C:\Users\rckik\Documents\GitHub\ProyectoCertificacion-Delivery\SlnDelivery\BEUDelivery\obj\Debug\BEUDelivery.pdb
