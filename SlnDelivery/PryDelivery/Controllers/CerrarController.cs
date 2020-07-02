@@ -14,7 +14,7 @@ namespace PryDelivery.Controllers
             Session["User"] = null;
 
 
-            return RedirectToAction("Login", "Login");
+            return RedirectToAction("Principal", "Home");
         }
     }
 }
